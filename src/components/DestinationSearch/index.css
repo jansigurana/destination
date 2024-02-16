@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.destination-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+}
+@media screen and (min-width: 768px) {
+  .destination-search-container {
+    align-items: flex-start;
+  }
+}
+.heading {
+  text-align: center;
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  margin: 40px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 40px;
+  }
+}
+.search-input-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px;
+}
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-family: 'Open Sans ';
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.destination-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .destination-list {
+    justify-content: center;
+  }
+}
